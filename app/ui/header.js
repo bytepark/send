@@ -21,16 +21,16 @@ class Header extends Component {
     const title =
       platform() === 'android'
         ? html`
-            <a class=""><img src="${assets.get('logo.svg')}"/></a>
+            <a class=""><img src="${assets.get('logo.png')}"/></a>
           `
         : html`
-            <a class="" href="/"><img src="${assets.get('logo.svg')}"/></a>
+            <a class="" href="/"><img src="${assets.get('logo.png')}"/></a>
           `;
     return html`
       <header
         class="relative flex-none flex flex-row items-center justify-between w-full px-6 h-16 md:h-24 z-20 bg-transparent"
       >
-        ${title} ${this.account.render()}
+        ${title}
       </header>
     `;
   }
