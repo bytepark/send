@@ -1,5 +1,5 @@
 # Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+title = bytefile
 siteFeedback = Adborth
 importingFile = Mewnforio…
 encryptingFile = Wrthi'n amgryptio…
@@ -57,7 +57,7 @@ passwordSetError = Nid oedd modd gosod y cyfrinair hwn
 ## Send version 2 strings
 
 # Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+-send-brand = bytefile
 -send-short-brand = Anfon
 -firefox = Firefox
 -mozilla = Mozilla

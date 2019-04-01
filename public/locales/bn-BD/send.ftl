@@ -1,5 +1,5 @@
 # Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+title = bytefile
 siteFeedback = প্রতিক্রিয়া
 importingFile = ইম্পোর্ট হচ্ছে...
 encryptingFile = ইনক্রিপট হচ্ছে...
@@ -49,7 +49,7 @@ passwordSetError = এই পাসওয়ার্ড সেট করা য
 ## Send version 2 strings
 
 # Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+-send-brand = bytefile
 -send-short-brand = প্রেরণ
 -firefox = Firefox
 -mozilla = Mozilla

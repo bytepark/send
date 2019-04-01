@@ -1,5 +1,5 @@
 # Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+title = bytefile
 siteFeedback = Zvirikutaurwa
 uploadPageLearnMore = Dzidza zvimwe
 # Used as header in a column indicating the amount of time left before a

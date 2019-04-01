@@ -26,7 +26,7 @@ module.exports = async function(req) {
     locale,
     capabilities: { account: false },
     translate: getTranslator(locale),
-    title: 'Firefox Send',
+    title: 'bytefile',
     description:
       'Encrypt and send files with a link that automatically expires to ensure your important documents don’t stay online forever.',
     baseUrl: config.base_url,

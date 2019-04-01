@@ -1,5 +1,5 @@
 # Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+title = bytefile
 siteSubtitle = آزمایش وب
 siteFeedback = بازخورد
 uploadPageHeader = اشتراک‌گذاری پرونده‌ها، رمزنگاری شده و خصوصی

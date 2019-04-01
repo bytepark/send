@@ -1,5 +1,5 @@
 # Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+title = bytefile
 siteSubtitle = జాల ప్రయోగం
 siteFeedback = అభిప్రాయం
 uploadPageLearnMore = ఇంకా తెలుసుకోండి

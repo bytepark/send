@@ -1,5 +1,5 @@
 # Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+title = bytefile
 siteFeedback = Comentario
 importingFile = Importando...
 encryptingFile = Encriptando...
@@ -49,7 +49,7 @@ passwordSetError = No se ha podido establecer la contraseña
 ## Send version 2 strings
 
 # Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+-send-brand = bytefile
 -send-short-brand = Enviar
 -firefox = Firefox
 -mozilla = Mozilla
