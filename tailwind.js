@@ -126,7 +126,11 @@ const colors = {
   'pink-light': '#fa7ea8',
   'pink-lighter': '#ffbbca',
   'pink-lightest': '#ffebef',
-  cloud: 'rgba(255, 255, 255, 0.8)'
+  cloud: 'rgba(255, 255, 255, 0.8)',
+  bytepark: '#f52243',
+  'bp-blue': '#02bee3',
+  'bp-gray': '#232121',
+  'bp-green': '00b86e'
 };
 
 module.exports = {
@@ -206,6 +210,7 @@ module.exports = {
       'sans-serif'
     ],
     serif: [
+      'Bitter',
       'Constantia',
       'Lucida Bright',
       'Lucidabright',

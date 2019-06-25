@@ -26,7 +26,7 @@ body {
 }
 
 .btn {
-  @apply bg-blue-dark;
+  @apply bg-bp-blue;
   @apply text-white;
   @apply cursor-pointer;
   @apply py-4;
@@ -68,16 +68,16 @@ body {
 }
 
 .checkbox > label:hover::before {
-  @apply border-blue-dark;
+  @apply border-bp-blue;
 }
 
 .checkbox > input:focus + label::before {
-  @apply border-blue-dark;
+  @apply border-bp-blue;
 }
 
 .checkbox > input:checked + label::before {
-  @apply bg-blue-dark;
-  @apply border-blue-dark;
+  @apply bg-bp-blue;
+  @apply border-bp-blue;
 
   background-image: url('../assets/lock.svg');
   background-position: center;
@@ -90,8 +90,8 @@ body {
 }
 
 .checkbox > input:disabled + label::before {
-  @apply bg-blue-dark;
-  @apply border-blue-dark;
+  @apply bg-bp-blue;
+  @apply border-bp-blue;
 
   background-image: url('../assets/lock.svg');
   background-position: center;
