@@ -10,7 +10,7 @@ module.exports = function(state, emit) {
     >
       <h1 class="mb-4">${state.translate('downloadTitle')}</h1>
       <p
-        class="w-full p-2 border border-yellow-light rounded md:w-4/5 text-orange-dark bg-yellow-lighter text-center leading-normal"
+        class="w-full p-2 border border-yellow-light rounded md:w-4/5 text-orange-dark bg-yellow-lighter font-sans text-center leading-normal"
       >
         ⚠️ ${state.translate('noStreamsWarning')} ⚠️
       </p>
@@ -24,7 +24,7 @@ module.exports = function(state, emit) {
               <h1 class="text-base font-medium word-break-all">${
                 archive.name
               }</h1>
-              <div class="text-sm font-normal opacity-75 pt-1">${bytes(
+              <div class="text-sm font-sans font-normal opacity-75 pt-1">${bytes(
                 archive.size
               )}</div>
             </p>
@@ -49,7 +49,7 @@ module.exports = function(state, emit) {
           </div>
         </fieldset>
         <input
-            class="btn rounded-lg w-full flex flex-no-shrink items-center justify-center"
+            class="btn rounded-lg w-full flex flex-no-shrink items-center justify-center font-sans"
             value="${state.translate('copyLinkButton')}"
             title="${state.translate('copyLinkButton')}"
             type="submit" />

@@ -34,7 +34,7 @@ module.exports = function(name, url) {
           Share link
         </button>
         <button
-          class="text-blue-dark hover:text-blue-darker focus:text-blue-darker my-4 font-medium cursor-pointer focus:outline"
+          class="font-sans text-blue-dark hover:text-blue-darker focus:text-blue-darker my-4 font-medium cursor-pointer focus:outline"
           onclick="${close}"
           title="${state.translate('okButton')}"
         >

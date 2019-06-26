@@ -38,7 +38,7 @@ function password(state) {
           autocomplete="off"
           onchange="${togglePasswordInput}"
         />
-        <label for="add-password">
+        <label for="add-password" class="font-sans">
           ${state.translate('addPassword')}
         </label>
       </div>
@@ -109,7 +109,7 @@ function fileInfo(file, action) {
       <img class="h-8" src="${assets.get('blue_file.svg')}"/>
       <p class="ml-4 w-full">
         <h1 class="text-base font-medium word-break-all">${file.name}</h1>
-        <div class="text-sm font-normal opacity-75 pt-1">${bytes(
+        <div class="text-sm font-sans font-normal opacity-75 pt-1">${bytes(
           file.size
         )}</div>
       </p>
@@ -123,7 +123,7 @@ function archiveInfo(archive, action) {
       <img class="mr-3 flex-no-shrink" src="${assets.get('blue_file.svg')}"/>
       <p class="flex-grow">
         <h1 class="text-base font-medium word-break-all">${archive.name}</h1>
-        <div class="text-sm font-normal opacity-75 pt-1">${bytes(
+        <div class="text-sm font-sans font-normal opacity-75 pt-1">${bytes(
           archive.size
         )}</div>
       </p>
@@ -170,7 +170,7 @@ module.exports = function(state, emit, archive) {
     state.capabilities.share || platform() === 'android'
       ? html`
           <button
-            class="text-blue-dark hover:text-blue-darker focus:text-blue-darker self-end flex items-end"
+            class="font-sans text-blue-dark hover:text-blue-darker focus:text-blue-darker self-end flex items-end"
             onclick=${share}
             title="Share link"
           >
@@ -179,7 +179,7 @@ module.exports = function(state, emit, archive) {
         `
       : html`
           <button
-            class="text-blue-dark hover:text-blue-darker focus:text-blue-darker focus:outline self-end flex items-center"
+            class="font-sans text-blue-dark hover:text-blue-darker focus:text-blue-darker focus:outline self-end flex items-center"
             onclick=${copy}
             title="${state.translate('copyLinkButton')}"
           >
@@ -191,7 +191,7 @@ module.exports = function(state, emit, archive) {
     platform() === 'web'
       ? html`
           <a
-            class="flex items-baseline text-blue-dark hover:text-blue-darker focus:text-blue-darker"
+            class="flex items-baseline text-blue-dark hover:text-blue-darker focus:text-blue-darker font-sans"
             href="${archive.url}"
             title="${state.translate('downloadButtonLabel')}"
             tabindex="0"
@@ -221,7 +221,7 @@ module.exports = function(state, emit, archive) {
           />
         `
       )}
-      <div class="text-sm opacity-75 w-full mt-2 mb-2">
+      <div class="font-sans text-sm opacity-75 w-full mt-2 mb-2">
         ${expiryInfo(state.translate, archive)}
       </div>
       ${archiveDetails(state.translate, archive)}
@@ -299,13 +299,13 @@ module.exports.wip = function(state, emit) {
         >
           <label
             for="file-upload"
-            class="flex items-center cursor-pointer"
+            class="flex items-center cursor-pointer font-sans"
             title="${state.translate('addFilesButton')}"
           >
             <img src="${assets.get('addfiles.svg')}" class="w-6 h-6 mr-2" />
             ${state.translate('addFilesButton')}
           </label>
-          <div class="font-normal text-sm text-grey-darker">
+          <div class="font-sans font-normal text-sm text-grey-darker">
             ${state.translate('totalSize', {
               size: bytes(state.archive.size)
             })}
@@ -315,7 +315,7 @@ module.exports.wip = function(state, emit) {
       ${expiryOptions(state, emit)} ${password(state, emit)}
       <button
         id="upload-btn"
-        class="btn rounded-lg flex-no-shrink focus:outline"
+        class="btn rounded-lg flex-no-shrink focus:outline font-sans"
         title="${state.translate('uploadButton')}"
         onclick="${upload}"
       >
@@ -383,19 +383,19 @@ module.exports.uploading = function(state, emit) {
       class="flex flex-col items-start rounded shadow-light bg-white p-4 w-full"
     >
       ${archiveInfo(archive)}
-      <div class="text-xs text-grey-dark w-full mt-2 mb-2">
+      <div class="text-xs font-sans text-grey-dark w-full mt-2 mb-2">
         ${expiryInfo(state.translate, {
           dlimit: state.archive.dlimit,
           dtotal: 0,
           expiresAt: Date.now() + 500 + state.archive.timeLimit * 1000
         })}
       </div>
-      <div class="text-blue-dark text-sm font-medium mt-2">
+      <div class="font-sans text-blue-dark text-sm font-medium mt-2">
         ${progressPercent}
       </div>
       <progress class="my-3" value="${progress}">${progressPercent}</progress>
       <button
-        class="text-blue-dark hover:text-blue-darker focus:text-blue-darker self-end font-medium"
+        class="font-sans text-blue-dark hover:text-blue-darker focus:text-blue-darker self-end font-medium"
         onclick=${cancel}
         title="${state.translate('deletePopupCancel')}"
       >
@@ -417,7 +417,7 @@ module.exports.empty = function(state, emit) {
       ? ''
       : html`
           <button
-            class="center font-medium text-sm text-blue-dark hover:text-blue-darker focus:text-blue-darker mt-4 mb-2"
+            class="center font-sans font-medium text-sm text-blue-dark hover:text-blue-darker focus:text-blue-darker mt-4 mb-2"
             onclick="${event => {
               event.stopPropagation();
               emit('signup-cta', 'drop');
@@ -459,7 +459,7 @@ module.exports.empty = function(state, emit) {
       <label
         for="file-upload"
         role="button"
-        class="btn rounded-lg flex items-center mt-4"
+        class="btn rounded-lg flex items-center mt-4 font-sans"
         title="${state.translate('addFilesButton', {
           size: bytes(state.user.maxSize)
         })}"
@@ -509,7 +509,7 @@ module.exports.preview = function(state, emit) {
       </div>
       <button
         id="download-btn"
-        class="btn rounded-lg mt-4 w-full flex-no-shrink focus:outline"
+        class="btn rounded-lg mt-4 w-full flex-no-shrink focus:outline font-sans"
         title="${state.translate('downloadButtonLabel')}"
         onclick=${download}
       >
@@ -534,7 +534,7 @@ module.exports.downloading = function(state) {
       class="flex flex-col bg-white rounded shadow-light p-4 w-full max-w-sm md:w-128"
     >
       ${archiveInfo(archive)}
-      <div class="text-blue-dark text-sm font-medium mt-2">
+      <div class="font-sans text-blue-dark text-sm font-medium mt-2">
         ${progressPercent}
       </div>
       <progress class="my-3" value="${progress}">${progressPercent}</progress>

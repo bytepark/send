@@ -10,7 +10,9 @@ module.exports = function(name, url) {
         <h1 class="font-bold my-4">
           ${state.translate('notifyUploadEncryptDone')}
         </h1>
-        <p class="font-normal leading-normal text-grey-darkest word-break-all">
+        <p
+          class="font-sans font-normal leading-normal text-grey-darkest word-break-all"
+        >
           ${state.translate('copyLinkDescription')} <br />
           ${name}
         </p>
@@ -22,14 +24,14 @@ module.exports = function(name, url) {
           readonly="true"
         />
         <button
-          class="btn rounded-lg w-full flex-no-shrink focus:outline"
+          class="btn rounded-lg w-full flex-no-shrink focus:outline font-sans"
           onclick="${copy}"
           title="${state.translate('copyLinkButton')}"
         >
           ${state.translate('copyLinkButton')}
         </button>
         <button
-          class="text-blue-dark hover:text-blue-darker focus:text-blue-darker my-4 font-medium cursor-pointer focus:outline"
+          class="font-sans text-blue-dark hover:text-blue-darker focus:text-blue-darker my-4 font-medium cursor-pointer focus:outline"
           onclick="${close}"
           title="${state.translate('okButton')}"
         >

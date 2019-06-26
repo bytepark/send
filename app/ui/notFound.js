@@ -13,11 +13,16 @@ module.exports = function(state, emit) {
           ${state.translate('expiredTitle')}
         </h1>
         <img src="${assets.get('notFound.svg')}" class="my-12" />
-        <p class="max-w-md text-center text-grey-darkest leading-normal">
+        <p
+          class="max-w-md font-sans text-center text-grey-darkest leading-normal"
+        >
           ${state.translate('trySendDescription')}
         </p>
         <p class="my-5">
-          <a href="/" class="btn rounded-lg flex items-center" role="button"
+          <a
+            href="/"
+            class="btn rounded-lg flex items-center font-sans"
+            role="button"
             >${state.translate('sendYourFilesLink')}</a
           >
         </p>

@@ -9,7 +9,9 @@ module.exports = function(state, emit) {
       class="h-full w-full flex flex-col items-center justify-center bg-white py-8 max-w-md mx-auto"
     >
       <h1 class="mb-4">${state.translate('downloadTitle')}</h1>
-      <p class="w-full mb-4 text-center text-grey-darkest leading-normal">
+      <p
+        class="w-full mb-4 font-sans text-center text-grey-darkest leading-normal"
+      >
         ${state.translate('downloadDescription')}
       </p>
       <form
@@ -31,7 +33,7 @@ module.exports = function(state, emit) {
         <input
           type="submit"
           id="password-btn"
-          class="btn rounded-r-lg rounded-l-none ${invalid
+          class="btn rounded-r-lg rounded-l-none font-sans ${invalid
             ? 'bg-red hover:bg-red focus:bg-red'
             : ''}"
           value="${state.translate('unlockButtonLabel')}"
@@ -40,7 +42,7 @@ module.exports = function(state, emit) {
       </form>
       <label
         id="password-error"
-        class="${invalid ? '' : 'invisible'} text-red my-4"
+        class="${invalid ? '' : 'invisible'} font-sans text-red my-4"
         for="password-input"
       >
         ${state.translate('passwordTryAgain')}
