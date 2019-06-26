@@ -15,10 +15,7 @@ module.exports = function(state) {
         ${state.translate('trySendDescription')}
       </p>
       <p class="my-5">
-        <a
-          href="/"
-          class="btn rounded-lg flex items-center mt-4 font-sans"
-          role="button"
+        <a href="/" class="btn flex items-center mt-4 font-sans" role="button"
           >${state.translate('sendYourFilesLink')}</a
         >
       </p>

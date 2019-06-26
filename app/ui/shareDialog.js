@@ -27,7 +27,7 @@ module.exports = function(name, url) {
           readonly="true"
         />
         <button
-          class="btn rounded-lg w-full flex-no-shrink focus:outline"
+          class="btn w-full flex-no-shrink focus:outline"
           onclick="${share}"
           title="Share link"
         >

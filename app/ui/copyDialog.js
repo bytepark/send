@@ -24,7 +24,7 @@ module.exports = function(name, url) {
           readonly="true"
         />
         <button
-          class="btn rounded-lg w-full flex-no-shrink focus:outline font-sans"
+          class="btn w-full flex-no-shrink focus:outline font-sans"
           onclick="${copy}"
           title="${state.translate('copyLinkButton')}"
         >

@@ -22,7 +22,7 @@ module.exports = function(state, emit) {
         <input
           id="password-input"
           class="w-full border-l border-t border-b rounded-l-lg rounded-r-none ${invalid
-            ? 'border-red'
+            ? 'border-bytepark'
             : 'border-grey'} leading-loose px-2 py-1"
           maxlength="32"
           autocomplete="off"
@@ -33,16 +33,14 @@ module.exports = function(state, emit) {
         <input
           type="submit"
           id="password-btn"
-          class="btn rounded-r-lg rounded-l-none font-sans ${invalid
-            ? 'bg-red hover:bg-red focus:bg-red'
-            : ''}"
+          class="btn rounded-r-lg rounded-l-none font-sans ${invalid ? '' : ''}"
           value="${state.translate('unlockButtonLabel')}"
           title="${state.translate('unlockButtonLabel')}"
         />
       </form>
       <label
         id="password-error"
-        class="${invalid ? '' : 'invisible'} font-sans text-red my-4"
+        class="${invalid ? '' : 'invisible'} font-sans text-bytepark my-4"
         for="password-input"
       >
         ${state.translate('passwordTryAgain')}
@@ -61,8 +59,12 @@ module.exports = function(state, emit) {
     const input = document.getElementById('password-input');
     const btn = document.getElementById('password-btn');
     label.classList.add('invisible');
-    input.classList.remove('border-red');
-    btn.classList.remove('bg-red', 'hover:bg-red', 'focus:bg-red');
+    input.classList.remove('border-bytepark');
+    btn.classList.remove(
+      'bg-bytepark',
+      'hover:bg-bytepark',
+      'focus:bg-bytepark'
+    );
   }
 
   function checkPassword(event) {

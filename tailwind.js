@@ -129,6 +129,7 @@ const colors = {
   cloud: 'rgba(255, 255, 255, 0.8)',
   bytepark: '#f52243',
   'bp-blue': '#02bee3',
+  'bp-blue-dark': '#02a9ca',
   'bp-gray': '#232121',
   'bp-green': '00b86e'
 };

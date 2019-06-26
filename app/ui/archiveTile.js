@@ -315,7 +315,7 @@ module.exports.wip = function(state, emit) {
       ${expiryOptions(state, emit)} ${password(state, emit)}
       <button
         id="upload-btn"
-        class="btn rounded-lg flex-no-shrink focus:outline font-sans"
+        class="btn flex-no-shrink focus:outline font-sans"
         title="${state.translate('uploadButton')}"
         onclick="${upload}"
       >
@@ -459,7 +459,7 @@ module.exports.empty = function(state, emit) {
       <label
         for="file-upload"
         role="button"
-        class="btn rounded-lg flex items-center mt-4 font-sans"
+        class="btn flex items-center mt-4 font-sans"
         title="${state.translate('addFilesButton', {
           size: bytes(state.user.maxSize)
         })}"
@@ -509,7 +509,7 @@ module.exports.preview = function(state, emit) {
       </div>
       <button
         id="download-btn"
-        class="btn rounded-lg mt-4 w-full flex-no-shrink focus:outline font-sans"
+        class="btn mt-4 w-full flex-no-shrink focus:outline font-sans"
         title="${state.translate('downloadButtonLabel')}"
         onclick=${download}
       >

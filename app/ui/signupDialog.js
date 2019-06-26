@@ -49,7 +49,7 @@ module.exports = function(trigger) {
               placeholder=${state.translate('emailPlaceholder')}
             />
             <input
-              class="btn rounded-lg w-full flex flex-no-shrink items-center justify-center font-sans"
+              class="btn w-full flex flex-no-shrink items-center justify-center font-sans"
               value="${state.translate('signInButton')}"
               title="${state.translate('signInButton')}"
               id="email-submit"

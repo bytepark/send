@@ -32,7 +32,7 @@ module.exports = function(state, emit) {
         <h1 class="">${strings.header}</h1>
         <p class="mt-4 mb-8 max-w-md leading-normal">${strings.description}</p>
         ${why}
-        <a href="${url}" class="btn rounded-lg mt-8 px-8">
+        <a href="${url}" class="btn mt-8 px-8">
           ${strings.button}
         </a>
       </section>

@@ -26,19 +26,22 @@ body {
 }
 
 .btn {
-  @apply bg-bp-blue;
-  @apply text-white;
+  @apply text-bp-blue-dark;
   @apply cursor-pointer;
   @apply py-4;
   @apply px-6;
+  @apply border-2;
+  @apply border-bp-blue;
 }
 
 .btn:hover {
-  @apply bg-blue-darker;
+  @apply bg-bp-blue;
+  @apply text-white;
 }
 
 .btn:focus {
-  @apply bg-blue-darker;
+  @apply bg-bp-blue;
+  @apply text-white;
 }
 
 .checkbox {

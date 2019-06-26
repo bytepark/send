@@ -49,7 +49,7 @@ module.exports = function(state, emit) {
           </div>
         </fieldset>
         <input
-            class="btn rounded-lg w-full flex flex-no-shrink items-center justify-center font-sans"
+            class="btn w-full flex flex-no-shrink items-center justify-center font-sans"
             value="${state.translate('copyLinkButton')}"
             title="${state.translate('copyLinkButton')}"
             type="submit" />
