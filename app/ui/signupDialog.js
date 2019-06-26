@@ -19,7 +19,7 @@ module.exports = function(trigger) {
         <section
           class="flex flex-col flex-no-shrink self-center lg:mx-6 lg:max-w-xs"
         >
-          <h1 class="font-bold text-center lg:text-left">
+          <h1 class="font-normal text-center lg:text-left">
             ${state.translate('accountBenefitTitle')}
           </h1>
           <ul
