@@ -14,7 +14,7 @@
                         <mask id="mask-2" fill="white">
                             <use xlink:href="#path-1"></use>
                         </mask>
-                        <use id="Mask" fill="#45A1FF" opacity="0.6" xlink:href="#path-1"></use>
+                        <use id="Mask" fill="#02bee3" opacity="0.6" xlink:href="#path-1"></use>
                         <path d="M24.3031318,10.6474633 L16.7826187,10.6474633 C15.2742552,10.6474633 14.051485,9.42469306 14.051485,7.91632957 L14.051485,0.395816478" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" mask="url(#mask-2)"></path>
                         <path d="M7.2830232,8.93885547 L8.91906464,8.93885547" id="Path" stroke="#0060DF" stroke-width="2" stroke-linecap="round" mask="url(#mask-2)"></path>
                         <path d="M7.2830232,15.7798836 L17.5412669,15.7798836" id="Path" stroke="#0060DF" stroke-width="2" stroke-linecap="round" mask="url(#mask-2)"></path>
