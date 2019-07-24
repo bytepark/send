@@ -65,13 +65,13 @@ timespanMinutes =
     }
 timespanDays =
     { $num ->
-        [one] 1 päivä
-       *[other] { $num } päivää
+        [one] 1 päivän
+       *[other] { $num } päivän
     }
 timespanWeeks =
     { $num ->
-        [one] 1 viikko
-       *[other] { $num } viikkoa
+        [one] 1 viikon
+       *[other] { $num } viikon
     }
 fileCount =
     { $num ->
@@ -125,11 +125,11 @@ orClickWithSize = tai napsauta lähettääksesi tiedostoja, joiden koko voi olla
 addPassword = Suojaa salasanalla
 emailPlaceholder = Kirjoita sähköpostiosoitteesi
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
-signInSizeBump = Kirjautumalla voit lähettää jopa { $size } suuria tiedostoja
-signInButton = Kirjaudu tai rekisteröidy
+signInSizeBump = Kirjautumalla voit lähettää jopa { $size } kokoisia tiedostoja
+signInOnlyButton = Kirjaudu sisään
 accountBenefitTitle = Luo { -firefox }-tili tai kirjaudu sisään
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
-accountBenefitLargeFiles = Jaa jopa { $size } suuria tiedostoja
+accountBenefitLargeFiles = Jaa jopa { $size } kokoisia tiedostoja
 accountBenefitDownloadCount = Jaa tiedostoja useamman ihmisen kesken
 accountBenefitTimeLimit =
     { $count ->
@@ -145,3 +145,11 @@ noStreamsWarning = Tämä selain ei välttämättä osaa purkaa salausta näin s
 noStreamsOptionCopy = Kopioi linkki avataksesi sen toisessa selaimessa
 noStreamsOptionFirefox = Kokeile suosikkiselaintamme
 noStreamsOptionDownload = Jatka tällä selaimella
+downloadFirefoxPromo = { -send-short-brand } on olemassa kiitos uuden { -firefox }in.
+# the next line after the colon contains a file name
+shareLinkDescription = Jaa linkki tiedostoosi:
+shareLinkButton = Jaa linkki
+# $name is the name of the file
+shareMessage = Lataa tiedosto ”{ $name }” { -send-brand } -palvelusta: yksinkertaista ja turvallista tiedostonjakoa
+trailheadPromo = On tapa suojata yksityisyyttään. Liity Firefoxiin.
+learnMore = Lue lisää.

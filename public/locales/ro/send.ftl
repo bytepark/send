@@ -23,7 +23,7 @@ downloadButtonLabel = Descarcă
 downloadFinish = Descărcare încheiată
 fileSizeProgress = ({ $partialSize } din { $totalSize })
 sendYourFilesLink = Încearcă Firefox Send
-errorPageHeader = Ceva a mers prost!
+errorPageHeader = Ceva nu a funcționat!
 fileTooBig = Acest fișier este prea mare. Ar trebuie să fie sub { $size }.
 linkExpiredAlt = Link expirat
 notSupportedHeader = Browserul tău nu este suportat.
@@ -35,7 +35,7 @@ deleteButtonHover = Șterge
 footerLinkLegal = Mențiuni legale
 footerLinkPrivacy = Confidențialitate
 footerLinkCookies = Cookie-uri
-passwordTryAgain = Parola este incorectă. Încearcă din nou.
+passwordTryAgain = Parolă incorectă. Încearcă din nou.
 javascriptRequired = Firefox Send necesită JavaScript
 whyJavascript = De ce Firefox Send necesită JavaScript?
 enableJavascript = Te rugăm să reactivezi JavaScript și să încerci din nou.
@@ -56,7 +56,7 @@ passwordSetError = Această parolă nu a putut fi setată
 -firefox = Firefox
 -mozilla = Mozilla
 introTitle = Partajare de fișiere simplă și privată
-introDescription = { -send-brand } îți permite să partajezi fișiere cu criptare end-to-end și un link care expiră automat. Deci, poți păstra confidențial ceea ce partajezi și te poți asigura că ce ai partajat nu rămâne online pentru totdeauna.
+introDescription = { -send-brand } îți permite să partajezi fișiere cu criptare capăt-la-capăt și un link care expiră automat. Deci, poți păstra confidențial ceea ce partajezi și te poți asigura că ce ai partajat nu rămâne online pentru totdeauna.
 notifyUploadEncryptDone = Fișierul tău este criptat și gata de trimitere
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Expiră după { $downloadCount } sau { $timespan }
@@ -100,8 +100,8 @@ totalSize = Mărime totală: { $size }
 copyLinkDescription = Copiază linkul pentru partajarea fișierului:
 copyLinkButton = Copiază linkul
 downloadTitle = Descarcă fișierele
-downloadDescription = Acest fișier a fost partajat prin { -send-brand }, cu criptare end-to-end și un link ce expiră automat.
-trySendDescription = Încearcă { -send-brand } pentru o partajare de fișiere simplă și sigură.
+downloadDescription = Acest fișier a fost partajat prin { -send-brand }, cu criptare capăt-la-capăt și un link care expiră automat.
+trySendDescription = Încearcă { -send-brand } pentru o partajare simplă și sigură a fișierelor.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -119,7 +119,7 @@ tooManyArchives =
 expiredTitle = Acest link a expirat.
 notSupportedDescription = { -send-brand } nu va funcționa pe acest browser. { -send-short-brand } funcționează cel mai bine cu ultima versiune de { -firefox } și va funcționa cu versiunea curentă a majorității browserelor.
 downloadFirefox = Descarcă { -firefox }
-legalTitle = Politica de confidențialitate { -send-short-brand }
+legalTitle = Declarație de confidențialitate { -send-short-brand }
 legalDateStamp = Versiunea 1.0 din data de 12 martie 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }z { $hours }h { $minutes }m
@@ -133,8 +133,8 @@ orClickWithSize = sau dă clic pentru a trimite până la { $size }
 addPassword = Protejează cu parolă
 emailPlaceholder = Introdu e-mailul tău
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
-signInSizeBump = Autentifică-te ca să trimiți până la { $size }
-signInButton = Autentificare/Înregistrare
+signInSizeBump = Autentifică-te pentru a trimite până la { $size }
+signInOnlyButton = Autentificare
 accountBenefitTitle = Creează un cont { -firefox } sau autentifică-te
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Partajează fișiere de până la { $size }
@@ -154,3 +154,11 @@ noStreamsWarning = Este posibil ca acest browser să nu poată decripta un fiși
 noStreamsOptionCopy = Copiază linkul pentru a-l deschide într-un alt browser
 noStreamsOptionFirefox = Încearcă browserul nostru favorit
 noStreamsOptionDownload = Continuă cu acest browser
+downloadFirefoxPromo = { -send-short-brand } îți este adus de noul { -firefox }.
+# the next line after the colon contains a file name
+shareLinkDescription = Partajează linkul către fișier:
+shareLinkButton = Partajează linkul
+# $name is the name of the file
+shareMessage = Descarcă „{ $name }” cu { -send-brand }: partajare simplă și sigură a fișierelor
+trailheadPromo = Există o modalitate de a-ți proteja viața privată. Alătură-te Firefox.
+learnMore = Află mai multe.
