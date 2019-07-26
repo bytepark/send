@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = bytefile
 siteFeedback = Palaute
 importingFile = Tuodaan…
@@ -20,13 +20,13 @@ unlockButtonLabel = Avaa
 downloadButtonLabel = Lataa
 downloadFinish = Lataus valmis
 fileSizeProgress = { $partialSize } / { $totalSize }
-sendYourFilesLink = Kokeile Firefox Send -palvelua
+sendYourFilesLink = Kokeile bytefile -palvelua
 errorPageHeader = Jokin meni pieleen!
 fileTooBig = Tämä tiedosto on liian suuri ladattavaksi. Sen pitäisi olla pienempi kuin { $size }.
 linkExpiredAlt = Linkki on vanhentunut
 notSupportedHeader = Selaintasi ei tueta.
 notSupportedLink = Miksi selaintani ei tueta?
-notSupportedOutdatedDetail = Valitettavasti tämä Firefoxin versio ei tue Firefox Sendiä käyttävää web-tekniikkaa. Sinun on päivitettävä selaimesi.
+notSupportedOutdatedDetail = Valitettavasti tämä Firefoxin versio ei tue bytefileiä käyttävää web-tekniikkaa. Sinun on päivitettävä selaimesi.
 updateFirefox = Päivitä Firefox
 deletePopupCancel = Peruuta
 deleteButtonHover = Poista
@@ -35,7 +35,7 @@ footerLinkPrivacy = Tietosuoja
 footerLinkCookies = Evästeet
 passwordTryAgain = Väärä salasana. Yritä uudelleen.
 javascriptRequired = Firefox-Send vaatii JavaScriptin
-whyJavascript = Miksi Firefox Send vaatii JavaScriptin?
+whyJavascript = Miksi bytefile vaatii JavaScriptin?
 enableJavascript = Ota JavaScript käyttöön ja yritä uudelleen.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } t { $minutes } min
@@ -48,7 +48,7 @@ passwordSetError = Tätä salasanaa ei voitu asettaa
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = bytefile
 -send-short-brand = Send
 -firefox = Firefox

@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = bytefile
 siteFeedback = Повратне информације
 importingFile = Увозим…
@@ -22,13 +22,13 @@ unlockButtonLabel = Откључај
 downloadButtonLabel = Преузми
 downloadFinish = Преузимање је завршено.
 fileSizeProgress = ({ $partialSize } од { $totalSize })
-sendYourFilesLink = Испробајте Firefox Send
+sendYourFilesLink = Испробајте bytefile
 errorPageHeader = Нешто је пошло наопако!
 fileTooBig = Та датотека је превелика за отпремање. Треба да буде мања од { $size }.
 linkExpiredAlt = Веза је истекла
 notSupportedHeader = Ваш прегледач није подржан.
 notSupportedLink = Зашто мој прегледач није подржан?
-notSupportedOutdatedDetail = Нажалост, ово издање Firefox-a не подржава веб технологију која омогућава Firefox Send. Мораћете да ажурирате ваш прегледач.
+notSupportedOutdatedDetail = Нажалост, ово издање Firefox-a не подржава веб технологију која омогућава bytefile. Мораћете да ажурирате ваш прегледач.
 updateFirefox = Ажурирај Firefox
 deletePopupCancel = Откажи
 deleteButtonHover = Обриши
@@ -36,8 +36,8 @@ footerLinkLegal = Правни подаци
 footerLinkPrivacy = Приватност
 footerLinkCookies = Колачићи
 passwordTryAgain = Нетачна лозинка. Пробајте поново.
-javascriptRequired = За Firefox Send је потребан JavaScript
-whyJavascript = Зашто је потребан JavaScript за Firefox Send?
+javascriptRequired = За bytefile је потребан JavaScript
+whyJavascript = Зашто је потребан JavaScript за bytefile?
 enableJavascript = Омогућите JavaScript и пробајте поново.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }ч { $minutes }м
@@ -50,7 +50,7 @@ passwordSetError = Не можемо поставити ову лозинку
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = bytefile
 -send-short-brand = Send
 -firefox = Firefox
@@ -101,7 +101,7 @@ copyLinkDescription = Копирајте везу да бисте поделил
 copyLinkButton = Копирај везу
 downloadTitle = Преузми датотеке
 downloadDescription = Ова датотека је подељена преко услуге { -send-brand } која омогућава шифровање с краја на крај преко везе која самостално истиче.
-trySendDescription = Пробајте { -send-brand } за једноставно и безбедно дељење датотека.
+trySendDescription = Пробајте { -send-brand } за једноставно и безбено дељење датотека.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -129,7 +129,7 @@ uploadButton = Отпреми
 dragAndDropFiles = Превуците и пустите датотеке
 # the second part of the string 'Drag and drop files or click to send up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
-orClickWithSize = или кликните за слање садржаја великог до { $size }
+orClickWithSize = или кликните за слање садржаја велико до { $size }
 addPassword = Заштитите лозинком
 emailPlaceholder = Унесите вашу е-адресу
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
@@ -143,7 +143,7 @@ accountBenefitTimeLimit =
     { $count ->
         [one] Остави везе активним највише { $count } дан
         [few] Остави везе активним највише { $count } дана
-       *[other] Остави везе активним највише { $count } дана
+       *[other] Остави везе активним највише { $count } ана
     }
 accountBenefitSync = Управљајте подељеним датотекама са било ког уређаја
 accountBenefitMoz = Сазнајте више о другим { -mozilla }-иним услугама

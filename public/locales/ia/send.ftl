@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = bytefile
 siteFeedback = Reaction
 importingFile = Importation…
@@ -20,13 +20,13 @@ unlockButtonLabel = Disblocar
 downloadButtonLabel = Discargar
 downloadFinish = Discargamento completate
 fileSizeProgress = ({ $partialSize } de { $totalSize })
-sendYourFilesLink = Proba Firefox Send
+sendYourFilesLink = Proba bytefile
 errorPageHeader = Un error occurreva!
 fileTooBig = Iste file es troppo grande pro lo cargar. Illo debe ser inferior a { $size }.
 linkExpiredAlt = Ligamine expirate
 notSupportedHeader = Tu navigator non es supportate
 notSupportedLink = Perque iste navigator non es supportate?
-notSupportedOutdatedDetail = Infelicemente iste version de Firefox non supporta le nove technologias web que move Firefox Send. Tu besonia de actualisar tu navigator.
+notSupportedOutdatedDetail = Infelicemente iste version de Firefox non supporta le nove technologias web que move bytefile. Tu besonia de actualisar tu navigator.
 updateFirefox = Actualisar Firefox
 deletePopupCancel = Cancellar
 deleteButtonHover = Deler
@@ -34,8 +34,8 @@ footerLinkLegal = Legal
 footerLinkPrivacy = Confidentialitate
 footerLinkCookies = Cookies
 passwordTryAgain = Contrasigno incorrecte. Retenta.
-javascriptRequired = Firefox Send require JavaScript
-whyJavascript = Proque Firefox Send require JavaScript?
+javascriptRequired = bytefile require JavaScript
+whyJavascript = Proque bytefile require JavaScript?
 enableJavascript = Por favor activa JavaScript e tenta novemente.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
@@ -48,7 +48,7 @@ passwordSetError = Iste contrasigno non pote ser definite
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = bytefile
 -send-short-brand = Send
 -firefox = Firefox

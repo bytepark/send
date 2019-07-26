@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# bytefile is a brand name and should not be localized.
+title = bytefile
 siteFeedback = ข้อคิดเห็น
 importingFile = กำลังนำเข้า…
 encryptingFile = กำลังเข้ารหัส…
@@ -18,13 +18,13 @@ unlockButtonLabel = ปลดล็อก
 downloadButtonLabel = ดาวน์โหลด
 downloadFinish = การดาวน์โหลดเสร็จสมบูรณ์
 fileSizeProgress = ({ $partialSize } จาก { $totalSize })
-sendYourFilesLink = ลองใช้ Firefox Send
+sendYourFilesLink = ลองใช้ bytefile
 errorPageHeader = มีบางอย่างผิดพลาด!
-fileTooBig = ไฟล์นั้นใหญ่เกินกว่าจะอัปโหลดได้ ไฟล์ที่จะอัปโหลดควรมีขนาดน้อยกว่า { $size }
+fileTooBig = ไฟล์นั้นใหญ่เกินกว่าจะอปโหลดได้ ไฟล์ที่จะอัปโหลดควรมีขนาดน้อยกว่า { $size }
 linkExpiredAlt = ลิงก์หมดอายุแล้ว
 notSupportedHeader = ไม่รองรับเบราว์เซอร์ของคุณ
 notSupportedLink = ทำไมจึงไม่รองรับเบราว์เซอร์ของฉัน?
-notSupportedOutdatedDetail = น่าเสียดายที่ Firefox รุ่นนี้ไม่สนับสนุนเทคโนโลยีเว็บที่ขับเคลื่อน Firefox Send คุณจะต้องอัปเดตเบราว์เซอร์ของคุณ
+notSupportedOutdatedDetail = น่าเสียดายที่ Firefox รุ่นนี้ไม่สนับสนุนเทคโนโลยีเว็บที่ขับเคลื่อน bytefile คุณจะต้องอัปเดตเบราว์เซอร์ของคุณ
 updateFirefox = อัปเดต Firefox
 deletePopupCancel = ยกเลิก
 deleteButtonHover = ลบ
@@ -32,8 +32,8 @@ footerLinkLegal = ข้อกฎหมาย
 footerLinkPrivacy = ความเป็นส่วนตัว
 footerLinkCookies = คุกกี้
 passwordTryAgain = รหัสผ่านไม่ถูกต้อง ลองอีกครั้ง
-javascriptRequired = Firefox Send จำเป็นต้องใช้ JavaScript
-whyJavascript = ทำไม Firefox Send จึงจำเป็นต้องใช้ JavaScript?
+javascriptRequired = bytefile จำเป็นต้องใช้ JavaScript
+whyJavascript = ทำไม bytefile จึงจำเป็นต้องใช้ JavaScript?
 enableJavascript = โปรดเปิดใช้งาน JavaScript แล้วลองอีกครั้ง
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } ชม. { $minutes } นาที
@@ -42,12 +42,12 @@ expiresMinutes = { $minutes } นาที
 # A short status message shown when the user enters a long password
 maxPasswordLength = ความยาวรหัสผ่านสูงสุด: { $length }
 # A short status message shown when there was an error setting the password
-passwordSetError = ไม่สามารถตั้งรหัสผ่านนี้ได้
+passwordSetError = ไม่สามรถตั้งรหัสผ่านนี้ได้
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = bytefile
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -91,7 +91,7 @@ trySendDescription = ลองใช้ { -send-brand } สำหรับกา
 # count will always be > 10
 tooManyFiles =
     { $count ->
-       *[other] สามารถอัปโหลดได้ครั้งละ { $count } ไฟล์เท่านั้น
+       *[other] สามารถอัปโหลดได้ครั้งละ { $count } ไฟล์เ่านั้น
     }
 expiredTitle = ลิงก์นี้หมดอายุแล้ว
 notSupportedDescription = { -send-brand } จะไม่ทำงานกับเบราว์เซอร์นี้ { -send-short-brand } จะทำงานได้ดีที่สุดกับ { -firefox } รุ่นล่าสุด และจะทำงานกับเบราว์เซอร์ส่วนใหญ่ที่เป็นรุ่นปัจจุบัน

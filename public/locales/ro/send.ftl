@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = bytefile
 siteFeedback = Feedback
 importingFile = Se importă…
@@ -22,13 +22,13 @@ unlockButtonLabel = Deblochează
 downloadButtonLabel = Descarcă
 downloadFinish = Descărcare încheiată
 fileSizeProgress = ({ $partialSize } din { $totalSize })
-sendYourFilesLink = Încearcă Firefox Send
+sendYourFilesLink = Încearcă bytefile
 errorPageHeader = Ceva nu a funcționat!
 fileTooBig = Acest fișier este prea mare. Ar trebuie să fie sub { $size }.
 linkExpiredAlt = Link expirat
 notSupportedHeader = Browserul tău nu este suportat.
 notSupportedLink = De ce browserul meu nu este suportat?
-notSupportedOutdatedDetail = Din păcate, această versiune de Firefox nu suportă tehnologiile web din spatele Firefox Send. Va trebui să actualizezi browserul.
+notSupportedOutdatedDetail = Din păcate, această versiune de Firefox nu suportă tehnologiile web din spatele bytefile. Va trebui să actualizezi browserul.
 updateFirefox = Actualizează Firefox
 deletePopupCancel = Renunță
 deleteButtonHover = Șterge
@@ -36,8 +36,8 @@ footerLinkLegal = Mențiuni legale
 footerLinkPrivacy = Confidențialitate
 footerLinkCookies = Cookie-uri
 passwordTryAgain = Parolă incorectă. Încearcă din nou.
-javascriptRequired = Firefox Send necesită JavaScript
-whyJavascript = De ce Firefox Send necesită JavaScript?
+javascriptRequired = bytefile necesită JavaScript
+whyJavascript = De ce bytefile necesită JavaScript?
 enableJavascript = Te rugăm să reactivezi JavaScript și să încerci din nou.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
@@ -50,7 +50,7 @@ passwordSetError = Această parolă nu a putut fi setată
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = bytefile
 -send-short-brand = Send
 -firefox = Firefox

@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = bytefile
 siteFeedback = フィードバック
 importingFile = インポート中...
@@ -18,13 +18,13 @@ unlockButtonLabel = ロック解除
 downloadButtonLabel = ダウンロード
 downloadFinish = ダウンロード完了
 fileSizeProgress = ({ $partialSize } / { $totalSize })
-sendYourFilesLink = Firefox Send を試す
+sendYourFilesLink = bytefile を試す
 errorPageHeader = 何か問題が発生しました。
 fileTooBig = このファイルは大きすぎるためアップロードできません。上限は { $size } です。
 linkExpiredAlt = リンク期限切れ
 notSupportedHeader = お使いのブラウザーには対応していません。
-notSupportedLink = なぜ私のブラウザーには対応していないのでしょうか？
-notSupportedOutdatedDetail = 残念ながらお使いのバージョンの Firefox は Firefox Send が活用しているウェブ技術に対応していません。ブラウザーを更新する必要があります。
+notSupportedLink = なぜ私のブラウザーには対応してないのでしょうか？
+notSupportedOutdatedDetail = 残念ながらお使いのバージョンの Firefox は bytefile が活用しているウェブ技術に対応していません。ブラウザーを更新する必要があります。
 updateFirefox = Firefox を更新
 deletePopupCancel = キャンセル
 deleteButtonHover = 削除
@@ -32,8 +32,8 @@ footerLinkLegal = 法的情報
 footerLinkPrivacy = プライバシー
 footerLinkCookies = Cookie
 passwordTryAgain = パスワードが正しくありません。再度入力してください。
-javascriptRequired = Firefox Send を使うには JavaScript が必要です
-whyJavascript = Firefox Send が JavaScript を必要とする理由
+javascriptRequired = bytefile を使うには JavaScript が必要です
+whyJavascript = bytefile が JavaScript を必要とする理由
 enableJavascript = JavaScript を有効にして再度試してください。
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } 時間 { $minutes } 分
@@ -46,7 +46,7 @@ passwordSetError = このパスワードは設定できませんでした
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = bytefile
 -send-short-brand = Send
 -firefox = Firefox
@@ -117,7 +117,7 @@ orClickWithSize = または、クリックして最大 { $size } のファイル
 addPassword = パスワードで保護
 emailPlaceholder = メールアドレスを入力
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
-signInSizeBump = ログインすると最大 { $size } のファイルを送信できます
+signInSizeBump = ログインすると最大 { $size } のファイルを信できます
 signInOnlyButton = ログイン
 accountBenefitTitle = { -firefox } アカウントを作成またはログイン
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")

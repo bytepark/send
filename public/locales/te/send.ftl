@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# bytefile is a brand name and should not be localized.
+title = bytefile
 siteFeedback = అభిప్రాయం
 importingFile = దిగుమతవుతోంది...
 encryptingFile = గుప్తీకరిస్తోంది...
@@ -29,13 +29,13 @@ notSupportedLink = నా విహారిణికి ఎందుకు మ�
 notSupportedOutdatedDetail = దురదృష్టవశాత్తు Firefox యొక్క ఈ వెర్షన్ Firefox సాంకేతికతను పంపే వెబ్ సాంకేతికతకు మద్దతు ఇవ్వదు. మీరు మీ బ్రౌజర్ని నవీకరించాలి.
 updateFirefox = Firefoxను నవీకరించు
 deletePopupCancel = రద్దుచేయి
-deleteButtonHover = తొలగించు
+deleteButtonHover = తొలగింు
 footerLinkLegal = చట్టపరమైన
 footerLinkPrivacy = గోప్యత
 footerLinkCookies = కుకీలు
 passwordTryAgain = సరికాని సంకేతపదం. మళ్ళీ ప్రయత్నించండి.
-javascriptRequired = Firefox Sendకి జావాస్క్రిప్టు కావాలి
-whyJavascript = Firefox Sendకి జావాస్క్రిప్టు ఎందుకు కావాలి?
+javascriptRequired = bytefileకి జావాస్క్రిప్టు కావాలి
+whyJavascript = bytefileకి జావాస్క్రిప్టు ఎందుకు కావాలి?
 enableJavascript = జావాస్క్రిప్టు చేతనంచేసి మళ్ళీ ప్రయత్నించండి.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }గం { $minutes }ని
@@ -48,8 +48,8 @@ passwordSetError = ఈ సంకేతపదం పెట్టలేకపో�
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = bytefile
 -send-short-brand = పంపించు
 -firefox = Firefox
 -mozilla = Mozilla
@@ -104,7 +104,7 @@ signInOnlyButton = ప్రవేశించండి
 accountBenefitTitle = ఒక { -firefox } ఖాతాని సృష్టించండి లేదా ప్రవేశించండి
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = { $size } పరిమాణం ఫైళ్ళ వరకు పంచుకోండి
-accountBenefitDownloadCount = ఫైళ్లను ఎక్కువ మందితో పంచుకోండి
+accountBenefitDownloadCount = ఫైళ్లను ఎక్కువ మదితో పంచుకోండి
 signOut = నిష్క్రమించు
 okButton = సరే
 downloadingTitle = దింపుకుంటోంది
@@ -114,6 +114,6 @@ noStreamsOptionFirefox = మా అభిమాన బ్రౌజర్‌న�
 noStreamsOptionDownload = ఈ బ్రౌజర్‌తో కొనసాగించండి
 downloadFirefoxPromo = { -send-short-brand } క్రొత్త { -firefox } ద్వారా మీ ముందుకు తీసుకురాబడుతుంది.
 # the next line after the colon contains a file name
-shareLinkDescription = మీ ఫైలుకు లంకెను పంచుకోండి:
+shareLinkDescription = మీ ఫైలుకు లంకెను పంచుకోండ:
 shareLinkButton = లంకెను పంచుకోండి
 learnMore = ఇంకా తెలుసుకోండి.

@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = bytefile
 siteFeedback = Görüş bildir
 importingFile = İçe aktarılıyor…
@@ -16,13 +16,13 @@ unlockButtonLabel = Kilidi aç
 downloadButtonLabel = İndir
 downloadFinish = İndirme tamamlandı
 fileSizeProgress = ({ $partialSize } / { $totalSize })
-sendYourFilesLink = Firefox Send’i deneyin
+sendYourFilesLink = bytefile’i deneyin
 errorPageHeader = Bir şeyler ters gitti!
 fileTooBig = Dosyanız çok büyük. En fazla { $size } boyutunda olmalı.
 linkExpiredAlt = Bağlantı zaman aşımına uğramış
 notSupportedHeader = Tarayıcınız desteklenmiyor.
 notSupportedLink = Tarayıcım neden desteklenmiyor?
-notSupportedOutdatedDetail = Kullandığınız Firefox sürümü Firefox Send için gereken web teknolojilerini desteklemiyor. Tarayıcınızı güncellemeniz gerekiyor.
+notSupportedOutdatedDetail = Kullandığınız Firefox sürümü bytefile için gereken web teknolojilerini desteklemiyor. Tarayıcınızı güncellemeniz gerekiyor.
 updateFirefox = Firefox’u güncelle
 deletePopupCancel = Vazgeç
 deleteButtonHover = Sil
@@ -30,8 +30,8 @@ footerLinkLegal = Yasal Bilgiler
 footerLinkPrivacy = Gizlilik
 footerLinkCookies = Çerezler
 passwordTryAgain = Yanlış parola. Yeniden deneyin.
-javascriptRequired = Firefox Send için JavaScript gerekir
-whyJavascript = Firefox Send neden JavaScript kullanıyor?
+javascriptRequired = bytefile için JavaScript gerekir
+whyJavascript = bytefile neden JavaScript kullanıyor?
 enableJavascript = Lütfen JavaScript'i etkinleştirip yeniden deneyin.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } sa { $minutes } dk
@@ -44,7 +44,7 @@ passwordSetError = Parola ayarlanamadı
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = bytefile
 -send-short-brand = Send
 -firefox = Firefox
@@ -114,7 +114,7 @@ expiresDaysHoursMinutes = { $days } g { $hours } sa { $minutes } dk
 addFilesButton = Yüklenecek dosyaları seçin
 uploadButton = Yükle
 # the first part of the string 'Drag and drop files or click to send up to 1GB'
-dragAndDropFiles = Dosyaları sürükleyip bırakarak
+dragAndDropFiles = Dosyaları sürükleyip brakarak
 # the second part of the string 'Drag and drop files or click to send up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = veya buraya tıklayarak { $size }’ye kadar dosyalarınızı gönderebilirsiniz

@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = bytefile
 siteFeedback = Отзывы
 importingFile = Импортирование...
@@ -22,13 +22,13 @@ unlockButtonLabel = Разблокировать
 downloadButtonLabel = Загрузить
 downloadFinish = Загрузка завершена
 fileSizeProgress = ({ $partialSize } из { $totalSize })
-sendYourFilesLink = Попробовать Firefox Send
+sendYourFilesLink = Попробовать bytefile
 errorPageHeader = Что-то пошло не так!
 fileTooBig = Файл слишком большой. Он должен быть меньше { $size }.
 linkExpiredAlt = Истёк срок действия ссылки
 notSupportedHeader = Ваш браузер не поддерживается.
 notSupportedLink = Почему мой браузер не поддерживается?
-notSupportedOutdatedDetail = К сожалению, эта версия Firefox не поддерживает веб-технологию, благодаря которой работает Firefox Send. Ваш нужно обновить свой браузер.
+notSupportedOutdatedDetail = К сожалению, эта версия Firefox не поддерживает веб-технологию, благодаря которой работает bytefile. Ваш нужно обновить свой браузер.
 updateFirefox = Обновить Firefox
 deletePopupCancel = Отмена
 deleteButtonHover = Удалить
@@ -36,8 +36,8 @@ footerLinkLegal = Права
 footerLinkPrivacy = Приватность
 footerLinkCookies = Куки
 passwordTryAgain = Неверный пароль. Попробуйте снова.
-javascriptRequired = Для Firefox Send необходим JavaScript
-whyJavascript = Почему Firefox Send требуется JavaScript?
+javascriptRequired = Для bytefile необходим JavaScript
+whyJavascript = Почему bytefile требуется JavaScript?
 enableJavascript = Пожалуйста, включите JavaScript и попробуйте снова.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } ч. { $minutes } мин.
@@ -50,13 +50,13 @@ passwordSetError = Этот пароль не может быть установ
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = bytefile
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
 introTitle = Простой и безопасный обмен файлами
-introDescription = { -send-brand } позволяет вам делиться файлами со сквозным шифрованием и ограниченным сроком действия ссылки на загрузку. Так что, вы сможете делиться файлами приватно и они не останутся в сети навсегда.
+introDescription = { -send-brand } позволяет вам делиться файлми со сквозным шифрованием и ограниченным сроком действия ссылки на загрузку. Так что, вы сможете делиться файлами приватно и они не останутся в сети навсегда.
 notifyUploadEncryptDone = Ваш файл зашифрован и готов к отправке
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Срок хранения истекает после { $downloadCount } или через { $timespan }
@@ -100,7 +100,7 @@ totalSize = Общий размер: { $size }
 copyLinkDescription = Скопируйте ссылку, чтобы поделиться своим файлом:
 copyLinkButton = Копировать ссылку
 downloadTitle = Загрузить файлы
-downloadDescription = Этот файл был отправлен через { -send-brand } со сквозным шифрованием и ограниченным сроком действия ссылки на загрузку.
+downloadDescription = Этот файл был отправлен через { -send-brand } со сквозным шифрованием и ограниченным сроком действия ссылки а загрузку.
 trySendDescription = Испытайте простой и безопасный обмен файлами с помощью { -send-brand }.
 # count will always be > 10
 tooManyFiles =

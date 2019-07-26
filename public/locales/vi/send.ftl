@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = bytefile
 siteFeedback = Phản hồi
 importingFile = Đang nhập...
@@ -18,13 +18,13 @@ unlockButtonLabel = Mở khóa
 downloadButtonLabel = Tải xuống
 downloadFinish = Tải xuống hoàn tất
 fileSizeProgress = ({ $partialSize } trong { $totalSize })
-sendYourFilesLink = Dùng thử Firefox Send
+sendYourFilesLink = Dùng thử bytefile
 errorPageHeader = Có gì đó không ổn!
 fileTooBig = Tập tin này quá lớn để tải lên. Kích thước tập tin phải nhỏ hơn { $size }.
 linkExpiredAlt = Liên kết đã hết hạn
 notSupportedHeader = Trình duyệt của bạn không được hỗ trợ.
 notSupportedLink = Tại sao trình duyệt của tôi không được hỗ trợ?
-notSupportedOutdatedDetail = Thật không may là phiên bản Firefox này không hỗ trợ công nghệ được sử dụng trong Firefox Send. Bạn cần cập nhật trình duyệt của bạn.
+notSupportedOutdatedDetail = Tht không may là phiên bản Firefox này không hỗ trợ công nghệ được sử dụng trong bytefile. Bạn cần cập nhật trình duyệt của bạn.
 updateFirefox = Cập nhật Firefox
 deletePopupCancel = Hủy bỏ
 deleteButtonHover = Xóa
@@ -32,8 +32,8 @@ footerLinkLegal = Pháp lý
 footerLinkPrivacy = Quyền riêng tư
 footerLinkCookies = Cookie
 passwordTryAgain = Sai mật khẩu. Vui lòng thử lại.
-javascriptRequired = Firefox Send cần JavaScript
-whyJavascript = Tại sao Firefox Send cần JavaScript?
+javascriptRequired = bytefile cần JavaScript
+whyJavascript = Tại sao bytefile cần JavaScript?
 enableJavascript = Vui lòng kích hoạt JavaScript và thử lại.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } giờ { $minutes } phút
@@ -46,7 +46,7 @@ passwordSetError = Không thể đặt mật khẩu này
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = bytefile
 -send-short-brand = Send
 -firefox = Firefox

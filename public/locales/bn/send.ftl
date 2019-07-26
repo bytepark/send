@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = bytefile
 siteFeedback = প্রতিক্রিয়া
 importingFile = ইম্পোর্ট হচ্ছে...
@@ -20,13 +20,13 @@ unlockButtonLabel = আনলক করুন
 downloadButtonLabel = ডাউনলোড
 downloadFinish = ডাউনলোড সম্পন্ন
 fileSizeProgress = ({ $totalSize } এর { $partialSize })
-sendYourFilesLink = Firefox Send পরখ করে দেখুন
+sendYourFilesLink = bytefile পরখ করে দেখুন
 errorPageHeader = কোন সমস্যা হয়েছে!
 fileTooBig = ফাইলটি আপলোড করার জন্যে খুব বড়। এটি { $size } এর চেয়ে কম হওয়া উচিত।
 linkExpiredAlt = লিঙ্ক মেয়াদউত্তীর্ণ হয়েছে
 notSupportedHeader = আপনার ব্রাউজার সমর্থিত নয়।
 notSupportedLink = আমার ব্রাউজার কেন সমর্থিত নয়?
-notSupportedOutdatedDetail = দুর্ভাগ্যবশত Firefox এই সংস্করণটি ওয়েব প্রযুক্তিকে সমর্থন করে না যা Firefox Send কে সমর্থন করে। আপনাকে আপনার ব্রাউজারটি আপডেট করতে হবে।
+notSupportedOutdatedDetail = দুর্ভাগ্যবশত Firefox এই সংস্করণটি ওয়েব প্রযুক্তিকে সমর্থন করে না যা bytefile কে সমর্থন করে। আপনাকে আপনার ব্রাউজারটি আপডেট করতে হবে।
 updateFirefox = Firefox হালনাগাদ করুন
 deletePopupCancel = বাতিল
 deleteButtonHover = মুছে ফেলুন
@@ -34,8 +34,8 @@ footerLinkLegal = আইনগত
 footerLinkPrivacy = গোপনীয়তা
 footerLinkCookies = কুকি
 passwordTryAgain = ভুল পাসওয়ার্ড। আবার চেষ্টা করুন।
-javascriptRequired = Firefox Send এর জাভাস্ক্রিপ্ট প্রয়োজন।
-whyJavascript = কেন Firefox Send এর জাভাস্ক্রিপ্ট প্রয়োজন?
+javascriptRequired = bytefile এর জাভাস্ক্রিপ্ট প্রয়োজন।
+whyJavascript = কেন bytefile এর জাভাস্ক্রিপ্ট প্রয়োজন?
 enableJavascript = জাভাস্ক্রিপ্ট সক্রিয় করুন এবং আবার চেষ্টা করুন।
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }ঘ { $minutes }মি
@@ -48,13 +48,13 @@ passwordSetError = এই পাসওয়ার্ড সেট করা য
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = bytefile
 -send-short-brand = প্রেরণ
 -firefox = Firefox
 -mozilla = Mozilla
 introTitle = সহজ, ব্যক্তিগত ফাইল শেয়ার
-introDescription = { -send-brand } ফাইল এনক্রিপশন ও স্বয়ংক্রিয়ভাবে মেয়াদ শেষ হবে এমন একটি লিঙ্কের মাধ্যমে শুরু-থেকে-শেষ পর্যন্ত শেয়ার করতে দেয়। একারণে আপনি যা শেয়ার করেন তা গোপন রাখতে এবং আপনার জিনিস চিরদিনের জন্য অনলাইনে থাকবে না তা নিশ্চিত করতে পারেন।
+introDescription = { -send-brand } ফাইল এনক্রিপশন ও স্বয়ংক্রিয়ভাবে মেয়াদ শেষ হবে এমন একটি লিঙ্কের মাধ্যমে শুরু-থেকে-শেষ পর্যন্ত শেয়ার করতে দেয়। একারণে আপনি যা শেয়ার করেন তা গোপন রাখতে এবং আপনার জিনিস চিরদিনের জন্য অনলাইনে থাকবে া তা নিশ্চিত করতে পারেন।
 notifyUploadEncryptDone = আপনার ফাইল এনক্রিপ্ট করা হয়েছে এবং প্রেরণ করতে প্রস্তুত
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = { $downloadCount } বা { $timespan } পরে মেয়াদ শেষ হবে
@@ -109,7 +109,7 @@ tooManyArchives =
        *[other] কেবল { $count } আর্কাইভ অনুমোদিত।
     }
 expiredTitle = এই লিঙ্কের মেয়াদ শেষ হয়ে গেছে।
-notSupportedDescription = { -send-brand } এই ব্রাউজারের সাথে কাজ করবে না। { -firefox } এর সাম্প্রতিকতম সংস্করণে { -send-short-brand } সর্বোত্তমভাবে কাজ করবে, এবং এটি বেশিরভাগ ব্রাউজারের বর্তমান সংস্করণে কাজ করবে।
+notSupportedDescription = { -send-brand } এই ব্রাউজারের সাথে কাজ করবে না। { -firefox } এর সাম্প্রতিকতম সংস্করণে { -send-short-brand } সর্বোত্তমভাবে কাজ করবে, এবং এটি বেশিরভাগ বরাউজারের বর্তমান সংস্করণে কাজ করবে।
 downloadFirefox = { -firefox } ডাউনলোড করুন
 legalTitle = { -send-short-brand } গোপনীয়তা নোটিশ
 legalDateStamp = সংস্করণ ১.০, ১২ মার্চ, ২০১৯ তারিখ
@@ -130,7 +130,7 @@ signInOnlyButton = সাইন ইন
 accountBenefitTitle = { -firefox } অ্যাকাউন্ট তৈরি অথবা সাইন ইন করুন
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = সর্বোচ্চ { $size } আকারের ফাইল শেয়ার করুন
-accountBenefitDownloadCount = আরও মানুষের সাথে ফাইল শেয়ার করুন
+accountBenefitDownloadCount = আরও মানুষের সাথে ফাইল শেয়া করুন
 accountBenefitTimeLimit =
     { $count ->
         [one] ১ দিন পর্যন্ত লিঙ্ক সক্রিয় রাখুন
@@ -143,7 +143,7 @@ okButton = ঠিক আছে
 downloadingTitle = ডাউনলোড হচ্ছে
 noStreamsWarning = এই ব্রাউজার এতো বড় একটি ফাইল ডিক্রিপ্ট করতে সক্ষম নয়।
 noStreamsOptionCopy = অন্য ব্রাউজারে খুলতে লিঙ্ক অনুলিপি করুন
-noStreamsOptionFirefox = আমাদের জনপ্রিয় ব্রাউজার ব্যবহার করুন
+noStreamsOptionFirefox = আমাদের জনপ্রিয় ব্রউজার ব্যবহার করুন
 noStreamsOptionDownload = এই ব্রাউজার ব্যবহার অব্যহত রাখুন
 downloadFirefoxPromo = { -send-short-brand } আপনারদের জন্য নিয়ে এসেছে একেবারে নতুন { -firefox }।
 # the next line after the colon contains a file name

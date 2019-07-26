@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = bytefile
 siteFeedback = Feedback
 importingFile = Importazione in corso…
@@ -20,13 +20,13 @@ unlockButtonLabel = Sblocca
 downloadButtonLabel = Scarica
 downloadFinish = Download completato
 fileSizeProgress = ({ $partialSize } di { $totalSize })
-sendYourFilesLink = Prova Firefox Send
+sendYourFilesLink = Prova bytefile
 errorPageHeader = Si è verificato un errore.
 fileTooBig = Le dimensioni di questo file sono eccessive. Dovrebbe essere inferiore a { $size }.
 linkExpiredAlt = Link scaduto
 notSupportedHeader = Il browser in uso non è supportato.
 notSupportedLink = Perché questo browser non risulta supportato?
-notSupportedOutdatedDetail = Purtroppo questa versione di Firefox non supporta le tecnologie web alla base di Firefox Send. È necessario aggiornare il browser.
+notSupportedOutdatedDetail = Purtroppo questa versione di Firefox non supporta le tecnologie web alla base di bytefile. È necessario aggiornare il browser.
 updateFirefox = Aggiorna Firefox
 deletePopupCancel = Annulla
 deleteButtonHover = Elimina
@@ -34,8 +34,8 @@ footerLinkLegal = Note legali
 footerLinkPrivacy = Privacy
 footerLinkCookies = Cookie
 passwordTryAgain = Password errata, riprovare.
-javascriptRequired = Firefox Send richiede JavaScript
-whyJavascript = Perché Firefox Send richiede JavaScript?
+javascriptRequired = bytefile richiede JavaScript
+whyJavascript = Perché bytefile richiede JavaScript?
 enableJavascript = Attiva JavaScript e riprova.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
@@ -48,7 +48,7 @@ passwordSetError = Impossibile impostare la password
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = bytefile
 -send-short-brand = Send
 -firefox = Firefox

@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = ⴼⴰⵢⵔⴼⵓⴽⵙ ⵙⵉⵏⴷ
 siteFeedback = ⵜⴰⵙⴷⵎⵉⵔⵜ
 importingFile = ⴰⵙⴽⵛⵎ...
@@ -22,7 +22,7 @@ downloadFinish = ⵉⵎⴷⴰ ⵡⴰⴳⴰⵎ
 fileSizeProgress = ({ $partialSize } ⵙⴳ { $totalSize })
 sendYourFilesLink = ⴰⵔⵎ ⴼⴰⵢⵔⴼⵓⴽⵙ ⵙⵉⵏⴷ
 errorPageHeader = ⵜⵙⴰⵔ ⴽⵔⴰ ⵏ ⵜⵣⴳⴰⵍⵜ!
-fileTooBig = ⵉⵎⵇⵇⵓⵔ ⴱⴰⵀⵔⴰ ⵓⴼⴰⵢⵍⵓ ⴰ ⵖⴼ ⵓⵙⵙⴽⵜⵔ. ⵉⵅⵚⵚⴰ ⵜ ⴰⴷ ⵢⵉⵍⵉ ⴷⴷⴰⵡ ⵏ { $size }
+fileTooBig = ⵉⵎⵇⵇⵓⵔ ⴱⴰⵀⵔⴰ ⵓⴼⴰⵢⵍⵓ ⴰ ⵖⴼ ⵓⵙⴽⵜⵔ. ⵉⵅⵚⵚⴰ ⵜ ⴰⴷ ⵢⵉⵍⵉ ⴷⴷⴰⵡ ⵏ { $size }
 linkExpiredAlt = ⵉⵎⵎⵓⵜ ⵓⵙⵖⵏ
 notSupportedHeader = ⵓⵔ ⵉⵜⵜⵡⴰⵏⵏⴰⵍ ⵓⵎⵙⵙⴰⵔⴰ ⵏⵏⵓⵏ.
 notSupportedLink = ⵎⴰⵖⴼ ⵓⵔ ⵉⵜⵜⵡⴰⵏⵏⴰⵍ ⵓⵎⵙⵙⴰⵔⴰ ⵉⵏⵓ?
@@ -44,11 +44,11 @@ expiresMinutes = { $minutes }ⵙⴷ
 # A short status message shown when the user enters a long password
 maxPasswordLength = ⵜⵉⵖⵣⵉ ⵜⴰⵎⵓⵣⵣⵓⵔⵜ ⵏ ⵜⴳⵓⵔⵉ ⵏ ⵓⵣⵔⴰⵢ: { $length }
 # A short status message shown when there was an error setting the password
-passwordSetError = ⵓⵔ ⵜⵣⵎⵉⵔ ⵜⴳⵓⵔⵉ ⴰ ⵏ ⵓⵣⵔⴰⵢ ⴰⴷ ⵜⴻⵜⵜⵓⵙⵖⵍ
+passwordSetError = ⵓⵔ ⵜⵣⵎⵉⵔ ⵜⴳⵓⵔⵉ ⴰ  ⵓⵣⵔⴰⵢ ⴰⴷ ⵜⴻⵜⵜⵓⵙⵖⵍ
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = ⴼⴰⵢⵔⴼⵓⴽⵙ ⵙⵉⵏⴷ
 -send-short-brand = ⵙⵉⵏⴷ
 -firefox = ⴼⴰⵢⵔⴼⵓⴽⵙ
@@ -141,7 +141,7 @@ accountBenefitMoz = ⵍⵎⴷ ⵖⴼ ⵜⵏⵓⴼⴰ ⵢⴰⴹⵏⵉⵏ ⵏ { -m
 signOut = ⴼⴼⵖ
 okButton = ⵡⴰⵅⵅⴰ
 downloadingTitle = ⴰⴳⴰⵎ
-noStreamsWarning = ⵉⵣⵎⵔ ⵓⵎⵙⵙⴰⵔⴰ ⴰ ⴰⴷ ⵓⵔ ⵉⵖⴰⵢ ⴰⴷ ⵉⴽⴽⵙ ⴰⵙⵙⵏⵜⵍ ⵉ ⵢⴰⵏ ⵓⴼⴰⵢⵍⵓ ⵉⵎⵇⵇⵓⵔⵏ ⵙ ⵡⴰⵏⵛⵜ ⴰ.
+noStreamsWarning = ⵉⵣⵎⵔ ⵓⵎⵙⵙⴰⵔⴰ ⴰ ⴰⴷ ⵓⵔ ⵉⵖⴰⵢ ⴰⴷ ⵉⴽⴽⵙ ⴰⵙⵙⵜⵍ ⵉ ⵢⴰⵏ ⵓⴼⴰⵢⵍⵓ ⵉⵎⵇⵇⵓⵔⵏ ⵙ ⵡⴰⵏⵛⵜ ⴰ.
 noStreamsOptionCopy = ⵙⵙⵏⵖⵍⴰⵜ ⴰⵙⵖⵏ ⴰⴼⴰⴷ ⴰⴷ ⵜ ⵜⵕⵥⵎⵎ ⴳ ⴽⵔⴰ ⵏ ⵓⵎⵙⵙⴰⵔⴰ ⵢⴰⴹⵏ
 noStreamsOptionFirefox = ⴰⵔⵎⴰⵜ ⴰⵎⵙⵙⴰⵔⴰ ⵏⵏⵖ ⴰⵎⵓⴼⴰⵢ
 noStreamsOptionDownload = ⵙⵎⴷ ⵙ ⵓⵎⵙⵙⴰⵔⴰ ⴰ
@@ -151,5 +151,5 @@ shareLinkDescription = ⴱⴹⵓⵢⴰⵜ ⴰⵙⵖⵏ ⵖⵔ ⵓⴼⴰⵢⵍⵓ
 shareLinkButton = ⴱⴹⵓ ⴰⵙⵖⵏ
 # $name is the name of the file
 shareMessage = ⴰⴳⵎⴰⵜ "{ $name }" ⵙ { -send-brand }: ⴰⴱⵟⵟⵓ ⴰⴼⵔⴰⵔ ⴷ ⵡⵓⵙⵍⵉⴳ ⵏ ⵉⴼⵓⵢⵍⴰ
-trailheadPromo = ⵜⵍⵍⴰ ⵢⴰⵜ ⵜⵖⴰⵔⴰⵙⵜ ⴰⴼⴰⴷ ⴰⴷ ⵜⴼⵔⴳⵎ ⵜⵉⵏⵏⵓⵜⵍⴰ ⵏⵏⵓⵏ. ⵍⴽⵎⴰⵜ ⴼⴰⵢⵔⴼⵓⴽⵙ.
+trailheadPromo = ⵜⵍⵍⴰ ⵢⴰⵜ ⵜⵖⴰⵔⴰⵙⵜ ⴰⴼⴰⴷ ⴰⴷ ⵜⴼⵔⴳⵎ ⵜⵉⵏⵏⵓⵜⵍ ⵏⵏⵓⵏ. ⵍⴽⵎⴰⵜ ⴼⴰⵢⵔⴼⵓⴽⵙ.
 learnMore = ⵙⵙⵏ ⵓⴳⴳⴰⵔ.

@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = bytefile
 siteFeedback = Comentarios
 importingFile = Importando...
@@ -20,13 +20,13 @@ unlockButtonLabel = Desbloquiar
 downloadButtonLabel = Baxar
 downloadFinish = Completóse la descarga
 fileSizeProgress = ({ $partialSize } de { $totalSize })
-sendYourFilesLink = Probar Firefox Send
+sendYourFilesLink = Probar bytefile
 errorPageHeader = ¡Daqué foi mal!
 fileTooBig = Esti ficheru ye mui grande como pa xubilu. Debería tener menos de { $size }.
 linkExpiredAlt = Caducó l'enllaz
 notSupportedHeader = El to restolador nun ta sofitáu.
 notSupportedLink = ¿Por qué'l mio restolador nun ta sofitáu?
-notSupportedOutdatedDetail = Desafortunadamente esta versión de Firefox nun sofita la teunoloxía web qu'usa Firefox Send. Vas precisar anovar Firefox.
+notSupportedOutdatedDetail = Desafortunadamente esta versión de Firefox nun sofita la teunoloxía web qu'usa bytefile. Vas precisar anovar Firefox.
 updateFirefox = Anovar Firefox
 deletePopupCancel = Encaboxar
 deleteButtonHover = Desaniciar
@@ -34,8 +34,8 @@ footerLinkLegal = Llegal
 footerLinkPrivacy = Privacidá
 footerLinkCookies = Cookies
 passwordTryAgain = La contraseña ye incorreuta. Volvi tentalo.
-javascriptRequired = Firefox Send rique JavaScript
-whyJavascript = ¿Por qué Firefox Send rique JavaScript?
+javascriptRequired = bytefile rique JavaScript
+whyJavascript = ¿Por qué bytefile rique JavaScript?
 enableJavascript = Activa JavaScript y volvi tentalo, por favor.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
@@ -48,7 +48,7 @@ passwordSetError = Nun pudo afitase esta contraseña
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = bytefile
 -send-short-brand = Send
 -firefox = Firefox

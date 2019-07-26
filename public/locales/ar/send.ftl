@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = فَيَرفُكس سِنْد
 siteFeedback = الانطباعات
 importingFile = يستورد…

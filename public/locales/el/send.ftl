@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = bytefile
 siteFeedback = Σχόλια
 importingFile = Εισαγωγή…
@@ -20,13 +20,13 @@ unlockButtonLabel = Ξεκλείδωμα
 downloadButtonLabel = Λήψη
 downloadFinish = Η λήψη ολοκληρώθηκε
 fileSizeProgress = ({ $partialSize } από { $totalSize })
-sendYourFilesLink = Δοκιμάστε το Firefox Send
+sendYourFilesLink = Δοκιμάστε το bytefile
 errorPageHeader = Κάτι πήγε στραβά!
 fileTooBig = Αυτό το αρχείο είναι πολύ μεγάλο για μεταφόρτωση. Πρέπει να είναι μικρότερο από { $size }.
-linkExpiredAlt = Ο σύνδεσμος έληξε
+linkExpiredAlt = Ο σύνδεμος έληξε
 notSupportedHeader = Το πρόγραμμα περιήγησής σας δεν υποστηρίζεται.
 notSupportedLink = Γιατί δεν υποστηρίζεται το πρόγραμμα περιήγησής μου;
-notSupportedOutdatedDetail = Δυστυχώς, αυτή η έκδοση του Firefox δεν υποστηρίζει την τεχνολογία ιστού στην οποία βασίζεται το Firefox Send. Πρέπει να ενημερώσετε το πρόγραμμα περιήγησής σας.
+notSupportedOutdatedDetail = Δυστυχώς, αυτή η έκδοση του Firefox δεν υποστηρίζει την τεχνολογία ιστού στην οποία βασίζεται το bytefile. Πρέπει να ενημερώσετε το πρόγραμμα περιήγησής σας.
 updateFirefox = Ενημέρωση Firefox
 deletePopupCancel = Ακύρωση
 deleteButtonHover = Διαγραφή
@@ -34,9 +34,9 @@ footerLinkLegal = Νομικά
 footerLinkPrivacy = Απόρρητο
 footerLinkCookies = Cookies
 passwordTryAgain = Λάθος κωδικός πρόσβασης. Δοκιμάστε ξανά.
-javascriptRequired = Το Firefox Send απαιτεί JavaScript
-whyJavascript = Γιατί το Firefox Send απαιτεί JavaScript;
-enableJavascript = Παρακαλώ ενεργοποιήστε το JavaScript και δοκιμάστε ξανά.
+javascriptRequired = Το bytefile απαιτεί JavaScript
+whyJavascript = Γιατί το bytefile απαιτεί JavaScript;
+enableJavascript = Παρακλώ ενεργοποιήστε το JavaScript και δοκιμάστε ξανά.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }ώ { $minutes }λ
 # A short representation of a countdown timer containing the number of minutes remaining as digits, example "56m"
@@ -48,7 +48,7 @@ passwordSetError = Δεν ήταν δυνατός ο ορισμός αυτού �
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = bytefile
 -send-short-brand = Send
 -firefox = Firefox
@@ -122,7 +122,7 @@ dragAndDropFiles = Σύρετε και εναποθέστε αρχεία
 # the second part of the string 'Drag and drop files or click to send up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = ή κάντε κλικ για να στείλετε μέχρι { $size }
-addPassword = Προστασία με κωδικό πρόσβασης
+addPassword = Προσασία με κωδικό πρόσβασης
 emailPlaceholder = Εισάγετε το email σας
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Συνδεθείτε για να στείλετε μέχρι { $size }

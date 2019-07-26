@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = bytefile
 siteFeedback = Tikti
 importingFile = Akter...
@@ -20,13 +20,13 @@ unlockButtonLabel = Serreḥ
 downloadButtonLabel = Sider
 downloadFinish = Asider yemmed
 fileSizeProgress = ({ $partialSize } seg { $totalSize })
-sendYourFilesLink = Ɛreḍ Firefox Send
+sendYourFilesLink = Ɛreḍ bytefile
 errorPageHeader = Yella wayen yeḍran!
 fileTooBig = Afaylu-agi meqqeṛ aṭas. Yessefk ad yili daw n  { $size }.
 linkExpiredAlt = Aseɣwen yemmut
 notSupportedHeader = Iminig-ik ur ittusefrak ara
 notSupportedLink = Ayγer iminig inu ur yettwasefrek ara?
-notSupportedOutdatedDetail = Ad nesḥissef imilqem-agi n Firefox Firefox ur isefrak ara titiknulujiyin web yettwaseqdacen di Firefox Send. Yessefk ad tleqmeḍ iminig-ik.
+notSupportedOutdatedDetail = Ad nesḥissef imilqem-agi n Firefox Firefox ur isefrak ara titiknulujiyin web yettwaseqdacen di bytefile. Yessefk ad tleqmeḍ iminig-ik.
 updateFirefox = Leqqem Firefox
 deletePopupCancel = Sefsex
 deleteButtonHover = Kkes
@@ -34,7 +34,7 @@ footerLinkLegal = Usḍif
 footerLinkPrivacy = Tabaḍnit
 footerLinkCookies = Inagan n tuqqna
 passwordTryAgain = Yir awal uffir. Ɛreḍ tikelt nniḍen.
-javascriptRequired = Firefox Send yesra JavaScript
+javascriptRequired = bytefile yesra JavaScript
 whyJavascript = Ayɣer firefox Send yesra JavaScript?
 enableJavascript = Ma ulac aɣilif rmed JavaScript sakin ɛreḍ tikkelt nniḍen.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
@@ -48,7 +48,7 @@ passwordSetError = Awal-agi uffir ur izmir ara ad ittwabaded
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = bytefile
 -send-short-brand = Send
 -firefox = Firefox

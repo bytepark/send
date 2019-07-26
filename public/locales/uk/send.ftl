@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = bytefile
 siteFeedback = Відгуки
 importingFile = Імпортуємо...
@@ -22,13 +22,13 @@ unlockButtonLabel = Розблокувати
 downloadButtonLabel = Завантажити
 downloadFinish = Завантаження завершено
 fileSizeProgress = ({ $partialSize } з { $totalSize })
-sendYourFilesLink = Спробуйте Firefox Send
+sendYourFilesLink = Спробуйте bytefile
 errorPageHeader = Щось пішло не так!
 fileTooBig = Цей файл завеликий для вивантаження. Він має бути меншим за { $size }.
 linkExpiredAlt = Час дії посилання минув
 notSupportedHeader = Ваш браузер не підтримується.
 notSupportedLink = Чому мій браузер не підтримується?
-notSupportedOutdatedDetail = На жаль, ця версія Firefox не підтримує веб-технологію, завдяки якій працює Firefox Send. Вам потрібно оновити свій браузер.
+notSupportedOutdatedDetail = На жаль, ця версія Firefox не підтримує веб-технологію, завдяки якій працює bytefile. Вам потрібно оновити свій браузер.
 updateFirefox = Оновити Firefox
 deletePopupCancel = Скасувати
 deleteButtonHover = Видалити
@@ -36,9 +36,9 @@ footerLinkLegal = Права
 footerLinkPrivacy = Приватність
 footerLinkCookies = Куки
 passwordTryAgain = Невірний пароль. Спробуйте знову.
-javascriptRequired = Firefox Send потребує JavaScript
-whyJavascript = Чому для Firefox Send потрібен JavaScript?
-enableJavascript = Будь ласка, увімкніть JavaScript та спробуйте знову.
+javascriptRequired = bytefile потребує JavaScript
+whyJavascript = Чому для bytefile потрібен JavaScript?
+enableJavascript = Будь ласка, увімкніть JavaScript та спробуйте знву.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } год. { $minutes } хв.
 # A short representation of a countdown timer containing the number of minutes remaining as digits, example "56m"
@@ -50,13 +50,13 @@ passwordSetError = Неможливо встановити цей пароль
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = bytefile
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
 introTitle = Простий, приватний обмін файлами
-introDescription = { -send-brand } дозволяє обмінюватися файлами з використанням наскрізного шифрування та посиланнями з обмеженим терміном дії. Отже, ви можете бути певними, що ваші дані зберігаються приватно і не залишаться в мережі назавжди.
+introDescription = { -send-brand } дозволяє обмінюватися файлами з викоистанням наскрізного шифрування та посиланнями з обмеженим терміном дії. Отже, ви можете бути певними, що ваші дані зберігаються приватно і не залишаться в мережі назавжди.
 notifyUploadEncryptDone = Ваш файл зашифрований і готовий до надсилання
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Термін зберігання завершується після { $downloadCount } або { $timespan }
@@ -74,7 +74,7 @@ timespanDays =
     }
 timespanWeeks =
     { $num ->
-        [one] 1 тиждень
+        [one] 1 тижден
         [few] { $num } тижні
        *[other] { $num } тижнів
     }

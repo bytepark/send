@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = bytefile
 siteFeedback = Wyślij opinię
 importingFile = Importowanie…
@@ -22,13 +22,13 @@ unlockButtonLabel = Odblokuj
 downloadButtonLabel = Pobierz
 downloadFinish = Ukończono pobieranie
 fileSizeProgress = ({ $partialSize } z { $totalSize })
-sendYourFilesLink = Wypróbuj Firefox Send
+sendYourFilesLink = Wypróbuj bytefile
 errorPageHeader = Coś się nie udało.
 fileTooBig = Ten plik jest za duży, aby go wysłać. Musi być mniejszy niż { $size }
 linkExpiredAlt = Odnośnik wygasł
 notSupportedHeader = Używana przeglądarka nie jest obsługiwana.
 notSupportedLink = Dlaczego ta przeglądarka nie jest obsługiwana?
-notSupportedOutdatedDetail = Ta wersja Firefoksa nie obsługuje technologii internetowej, która napędza Firefox Send. Należy uaktualnić przeglądarkę.
+notSupportedOutdatedDetail = Ta wersja Firefoksa nie obsługuje technologii internetowej, która napędza bytefile. Należy uaktualnić przeglądarkę.
 updateFirefox = Uaktualnij Firefoksa
 deletePopupCancel = Anuluj
 deleteButtonHover = Usuń
@@ -36,8 +36,8 @@ footerLinkLegal = Kwestie prawne
 footerLinkPrivacy = Prywatność
 footerLinkCookies = Ciasteczka
 passwordTryAgain = Niepoprawne hasło. Spróbuj ponownie.
-javascriptRequired = Firefox Send wymaga języka JavaScript
-whyJavascript = Dlaczego Firefox Send wymaga języka JavaScript?
+javascriptRequired = bytefile wymaga języka JavaScript
+whyJavascript = Dlaczego bytefile wymaga języka JavaScript?
 enableJavascript = Włącz obsługę języka JavaScript i spróbuj ponownie.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } godz. { $minutes } min
@@ -50,7 +50,7 @@ passwordSetError = Nie można ustawić tego hasła
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = bytefile
 -send-short-brand = Send
 -firefox = Firefox

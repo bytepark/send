@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = bytefile
 siteFeedback = Komentar
 importingFile = Importuje so...
@@ -24,13 +24,13 @@ unlockButtonLabel = Wotewrěć
 downloadButtonLabel = Sćahnyć
 downloadFinish = Sćehnjenje dokónčene
 fileSizeProgress = ({ $partialSize } z { $totalSize })
-sendYourFilesLink = Firefox Send wupruwować
+sendYourFilesLink = bytefile wupruwować
 errorPageHeader = Něšto je so nimokuliło!
 fileTooBig = Tuta dataja je přewulka za nahraće. Měła mjeńša hač { $size } być.
 linkExpiredAlt = Wotkaz je spadnjeny
 notSupportedHeader = Waš wobhladowak so njepodpěruje.
 notSupportedLink = Čehodla so mój wobhladowak njepodpěruje?
-notSupportedOutdatedDetail = Bohužel tuta wersija Firefox webtechnologiju njepodpěruje, na kotrejž Firefox Send bazuje. Dyrbiće swój wobhladowak aktualizować.
+notSupportedOutdatedDetail = Bohužel tuta wersija Firefox webtechnologiju njepodpěruje, na kotrejž bytefile bazuje. Dyrbiće swój wobhladowak aktualizować.
 updateFirefox = Firefox aktualizować
 deletePopupCancel = Přetorhnyć
 deleteButtonHover = Zhašeć
@@ -38,8 +38,8 @@ footerLinkLegal = Prawniske
 footerLinkPrivacy = Priwatnosć
 footerLinkCookies = Placki
 passwordTryAgain = Wopačne hesło. Prošu spytajće hišće raz.
-javascriptRequired = Firefox Send JavaScript trjeba
-whyJavascript = Čehodla Firefox Send JavaScript trjeba?
+javascriptRequired = bytefile JavaScript trjeba
+whyJavascript = Čehodla bytefile JavaScript trjeba?
 enableJavascript = Prošu zmóžńće JavaScript a spytajće hišće raz.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } hodź. { $minutes } mjeń.
@@ -52,7 +52,7 @@ passwordSetError = Tute hesło njeda so nastajić
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = bytefile
 -send-short-brand = Send
 -firefox = Firefox

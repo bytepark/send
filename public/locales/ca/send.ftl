@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = bytefile
 siteFeedback = Comentaris
 importingFile = S'està important…
@@ -20,13 +20,13 @@ unlockButtonLabel = Desbloca
 downloadButtonLabel = Baixa
 downloadFinish = Ha acabat la baixada
 fileSizeProgress = ({ $partialSize } de { $totalSize })
-sendYourFilesLink = Proveu el Firefox Send
+sendYourFilesLink = Proveu el bytefile
 errorPageHeader = Hi ha hagut un problema
 fileTooBig = Aquest fitxer és massa gros per pujar-lo. Ha de tenir menys de { $size }.
 linkExpiredAlt = L'enllaç ha caducat
 notSupportedHeader = El vostre navegador no és compatible.
 notSupportedLink = Per què el meu navegador no és compatible?
-notSupportedOutdatedDetail = Aquesta versió del Firefox no admet la tecnologia web amb què funciona el Firefox Send. Haureu d'actualitzar el navegador.
+notSupportedOutdatedDetail = Aquesta versió del Firefox no admet la tecnologia web amb què funciona el bytefile. Haureu d'actualitzar el navegador.
 updateFirefox = Actualitza el Firefox
 deletePopupCancel = Cancel·la
 deleteButtonHover = Suprimeix
@@ -34,8 +34,8 @@ footerLinkLegal = Avís legal
 footerLinkPrivacy = Privadesa
 footerLinkCookies = Galetes
 passwordTryAgain = La contrasenya és incorrecta. Torneu-ho a provar.
-javascriptRequired = El Firefox Send necessita JavaScript
-whyJavascript = Per què el Firefox Send necessita JavaScript?
+javascriptRequired = El bytefile necessita JavaScript
+whyJavascript = Per què el bytefile necessita JavaScript?
 enableJavascript = Activeu el JavaScript i torneu-ho a provar.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } h { $minutes } min
@@ -48,9 +48,9 @@ passwordSetError = No s'ha pogut definir la contrasenya
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = bytefile
--send-short-brand = Firefox Send
+-send-short-brand = bytefile
 -firefox = Firefox
 -mozilla = Mozilla
 introTitle = Compartició de fitxers senzilla i privada

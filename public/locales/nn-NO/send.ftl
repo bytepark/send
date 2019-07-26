@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = bytefile
 siteFeedback = Tilbakemelding
 importingFile = Importerer…
@@ -20,13 +20,13 @@ unlockButtonLabel = Lås opp
 downloadButtonLabel = Last ned
 downloadFinish = Nedlastinga er fullført.
 fileSizeProgress = ({ $partialSize } av { $totalSize })
-sendYourFilesLink = Prøv Firefox Send
+sendYourFilesLink = Prøv bytefile
 errorPageHeader = Noko gjekk gale!
 fileTooBig = Fila er for stor, og kan ikkje lastast opp. Ho må vere mindre enn { $size }.
 linkExpiredAlt = Lenka har gått ut
 notSupportedHeader = Nettlesaren din er ikkje støtta.
 notSupportedLink = Kvifor er ikkje nettlesaren min støtta?
-notSupportedOutdatedDetail = Dessverre støttar ikkje denne versjonen av Firefox nett-teknologien som driv Firefox Send. Du må å oppdatere nettlesaren din.
+notSupportedOutdatedDetail = Dessverre støttar ikkje denne versjonen av Firefox nett-teknologien som driv bytefile. Du må å oppdatere nettlesaren din.
 updateFirefox = Oppdater Firefox
 deletePopupCancel = Avbryt
 deleteButtonHover = Slett
@@ -34,8 +34,8 @@ footerLinkLegal = Juridisk informasjon
 footerLinkPrivacy = Personvern
 footerLinkCookies = Infokapslar
 passwordTryAgain = Feil passord. Prøv på nytt.
-javascriptRequired = Firefox Send krev JavaScript.
-whyJavascript = Kvifor krev Firefox Send JavaScript?
+javascriptRequired = bytefile krev JavaScript.
+whyJavascript = Kvifor krev bytefile JavaScript?
 enableJavascript = Slå på JavaScript og prøv igjen.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }t { $minutes }m
@@ -48,7 +48,7 @@ passwordSetError = Dette passordet kunne ikkje stillast inn
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = bytefile
 -send-short-brand = Send
 -firefox = Firefox

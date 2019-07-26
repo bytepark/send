@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# bytefile is a brand name and should not be localized.
 title = bytefile
 siteFeedback = Zpětná vazba
 importingFile = Probíhá import…
@@ -22,13 +22,13 @@ unlockButtonLabel = Odemknout
 downloadButtonLabel = Stáhnout
 downloadFinish = Stahování dokončeno
 fileSizeProgress = ({ $partialSize } z { $totalSize })
-sendYourFilesLink = Vyzkoušejte Firefox Send
+sendYourFilesLink = Vyzkoušejte bytefile
 errorPageHeader = Nastala chyba!
 fileTooBig = Tento soubor je příliš veliký. Velikost nahrávaných souborů by neměla překročit { $size }.
 linkExpiredAlt = Platnost odkazu vypršela
 notSupportedHeader = Váš prohlížeč není podporován.
 notSupportedLink = Proč není můj prohlížeč podporovaný?
-notSupportedOutdatedDetail = Tato verze Firefoxu bohužel nepodporuje webovou technologii, která pohání Firefox Send. Musíte aktualizovat svůj prohlížeč.
+notSupportedOutdatedDetail = Tato verze Firefoxu bohužel nepodporuje webovou technologii, která pohání bytefile. Musíte aktualizovat svůj prohlížeč.
 updateFirefox = Aktualizovat Firefox
 deletePopupCancel = Zrušit
 deleteButtonHover = Smazat
@@ -36,8 +36,8 @@ footerLinkLegal = Právní informace
 footerLinkPrivacy = Soukromí
 footerLinkCookies = Cookies
 passwordTryAgain = Špatné heslo. Zkuste to znovu.
-javascriptRequired = Firefox Send vyžaduje povolený JavaScript
-whyJavascript = Proč Firefox Send vyžaduje povolený JavaScript?
+javascriptRequired = bytefile vyžaduje povolený JavaScript
+whyJavascript = Proč bytefile vyžaduje povolený JavaScript?
 enableJavascript = Povolte JavaScript a zkuste to znovu.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } h { $minutes } m
@@ -50,13 +50,13 @@ passwordSetError = Toto heslo nemohlo být nastaveno
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# bytefile, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand =
     { $case ->
-       *[nom] Firefox Send
+       *[nom] bytefile
         [gen] Firefoxu Send
         [dat] Firefoxu Send
-        [acc] Firefox Send
+        [acc] bytefile
         [voc] Firefoxe Send
         [loc] Firefoxu Send
         [ins] Firefoxem Send
